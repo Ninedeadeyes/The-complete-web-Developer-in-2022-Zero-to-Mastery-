@@ -1,0 +1,32 @@
+/*
+    CSS  Cascading Style Sheets
+
+    is a simple mechanism for adding style (e.g., fonts, colors, 
+    spacing) to Web documents. 
+
+    Cascading mean that it will always takes the selector at 
+    the end hence if you have to selectors with different color it 
+    will always change it to the color at the end of the list like
+    below 
+    
+    Selector {
+        Property :value;
+    }
+
+    
+*/
+
+h2{
+    color:red;   
+}
+
+p{
+    color:pink;
+}
+
+p{
+    color:green;
+}
+
+
+

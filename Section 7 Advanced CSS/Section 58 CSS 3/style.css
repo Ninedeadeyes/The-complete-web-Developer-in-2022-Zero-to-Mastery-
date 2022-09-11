@@ -1,0 +1,52 @@
+/* browser have their own default margin best to do margin 0 for body */
+
+body{
+    margin:0; 
+}
+
+img{
+    width:450px;
+    height: 350px;
+    transform: all 1s ;
+}
+
+img:hover{
+    transform:scale(1.1);
+}
+
+/* Anything with a prefix on a symbol on
+
+https://www.w3schools.com/cssref/css3_browsersupport.asp
+
+mean it only works if you add a prefix to it 
+
+(because it is a new experimental feature ) 
+
+eg 
+
+-moz-box-shadow:4px 4px 5px #888888;       Mozilla 
+-ms-shadow:4px 4px 5px #888888;      EXPLORER 
+box-shadow:4px 4px 5px #888888; 
+
+still need to put original property too. 
+
+*/
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3em;
+    border-bottom: 2px solid pink;
+    border-right:2px solid pink;
+    width:400px;
+    text-align: center;  /* center of the 400px width  */
+    -moz-box-shadow:4px 4px 5px #888888;       
+    -ms-shadow:4px 4px 5px #888888;      
+     box-shadow:4px 4px 5px #888888; 
+     margin-top:10px;
+}

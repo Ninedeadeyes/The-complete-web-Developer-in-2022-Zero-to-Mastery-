@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+ </head>
+ <body>
+
+
+   <!--1) required attribute means must have or warning will appear -->
+
+   <!--2) The radio group must have share the same name 
+      (the value of the name attribute) to be treated as a group-->
+
+   <!--3) Withe the attribute 'email' you need a @ in your answer -->
+   
+   <!--4) Can use multple to select more than one option eg :
+   <select multiple > -->
+
+   
+
+    <form>
+        First Name:<input type="text" > <br>
+        Last Name:<input type="text" > <br> 
+        Email:<input type="email" required> <br> <!--1) and 3) -->
+        Password<input type="password" min="5"> <br>
+        Birthday:<input type="date"> <br>
+        Gender:<br>
+        <input type="radio" name="gender">Male<br> <!--2)-->
+        <input type="radio"name="gender">Female<br>
+        <input type="radio"name="gender">Other <br>
+        Pets: <br>
+        <input type="checkbox">Dog <br>
+        <input type="checkbox">Cat <br>
+        Cars<br>
+        <select multiple > <!--4)-->  
+            <option value="volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+        </select><br>
+
+        <input type="submit" value="Register!">
+        <input type="reset">
+
+
+    </form>
+    
+ </body>
+ </html>

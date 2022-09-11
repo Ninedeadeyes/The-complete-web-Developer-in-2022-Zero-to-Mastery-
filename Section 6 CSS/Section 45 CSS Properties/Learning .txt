@@ -1,0 +1,5 @@
+-Three different ways to use colours 
+
+- How to use inline block 
+
+-how to import pictures as background 

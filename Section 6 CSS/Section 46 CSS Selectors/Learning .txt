@@ -1,0 +1,3 @@
+- Different selectors 
+- behaviour of cascasding 
+- difference between element element and element >element 

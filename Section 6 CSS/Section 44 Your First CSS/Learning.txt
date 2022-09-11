@@ -1,0 +1,3 @@
+The 3 different ways of writing CSS Code
+linking style sheets to different html pages. 
+examples of how CSS Code Cascades

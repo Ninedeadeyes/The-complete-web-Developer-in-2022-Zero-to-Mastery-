@@ -1,0 +1,14 @@
+p{
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height:50px;
+    font-style:italic;
+    font-weight:bold;
+    font-size:150%;
+    font-family:'Poiret One'; 
+}
+
+    /* To access google font you have to click on the little + button near the bottom of the 
+      google font and then you can access it at the top right but remember you can only 
+      click one at a time so delete the old one before you can add a new one, copy and paste 
+      the link href and font-family  */

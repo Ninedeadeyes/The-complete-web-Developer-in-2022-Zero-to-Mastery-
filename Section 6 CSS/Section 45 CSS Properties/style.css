@@ -1,0 +1,42 @@
+/*
+    CSS  Cascading Style Sheets
+
+    is a simple mechanism for adding style (e.g., fonts, colors, 
+    spacing) to Web documents. 
+
+    Cascading mean that it will always takes the selector at 
+    the end hence if you have to selectors with different color it 
+    will always change it to the color at the end of the list like
+    below 
+    
+    Selector {
+        Property :value;
+    } 
+*/
+
+body{
+    background-image:url(background.jpg) ;
+    background-size: cover;
+}
+
+h2{
+    color:#AA3939;             /* hex example of colour     */
+    text-align: center; 
+    border:5px solid rgb(255, 170, 170,0.5);  /* example of rgp  4th item is 'fade' 'Opacity'   */
+    cursor:pointer;
+}
+
+p{
+    color:pink;
+}
+
+p{
+    color:green;
+}
+
+li{
+    list-style:none;
+    display:inline-block;    /* makes titles go on the same line   */
+}
+
+ 

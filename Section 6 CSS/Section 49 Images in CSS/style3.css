@@ -1,0 +1,26 @@
+p{
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height:30px;
+    font-style:italic;
+    font-weight:bold;
+    font-size:150%;
+    font-family:'Poiret One'; 
+}
+
+img{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+footer{
+    clear:both;   
+    text-align:center;  
+}
+
+/* float will make it so the image will either be on the left or right 
+side of the paragraph and then clear will make sure the footer is 
+under the float  */
+
+

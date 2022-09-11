@@ -1,0 +1,7 @@
+Box model 
+
+padding 
+
+margin 
+
+different methods of formatting these two properties. 

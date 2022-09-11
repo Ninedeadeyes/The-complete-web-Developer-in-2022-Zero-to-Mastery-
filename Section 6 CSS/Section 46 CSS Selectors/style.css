@@ -1,0 +1,138 @@
+/*
+    CSS  Cascading Style Sheets
+
+    is a simple mechanism for adding style (e.g., fonts, colors, 
+    spacing) to Web documents. 
+
+    Cascading mean that it will always takes the selector at 
+    the end hence if you have to selectors with different color it 
+    will always change it to the color at the end of the list like
+    below 
+    
+    Selector {
+        Property :value;
+    } 
+*/
+
+/* * =	Selects all elements (star selector), lowest Specificity  */
+  
+*{
+   text-align:right;        
+}
+ 
+/*  */
+                        
+body{
+    background-image:url(background.jpg) ;
+    background-size: cover;
+}
+
+/* element selector = target all elements on a page */
+p{
+    color:pink;
+}
+
+p{
+    color:green;
+}
+
+
+li{
+    list-style:none;
+    display:inline-block;    /* makes titles go on the same line   */
+}
+
+
+
+ /* element,element =  all 'element 1 and element 2 have these properties   */
+
+h2,p{
+    color:#AA3939;             /* hex example of colour     */
+    text-align: center; 
+    border:5px solid rgb(255, 170, 170,0.5);  /* example of rgp  4th item is 'fade' 'Opacity'   */
+    cursor:pointer;
+}
+
+/* element element= Selects all <h1> elements (2nd) inside <div> elements(1st) even if it is not a direct descendent */
+div h1{
+    color:black;
+    text-align: start;
+}
+
+
+/* element>element  Selects all <h3> elements where the parent is a <div> element , it has to be a direct
+ descendent. Example provided in index.html 
+ 
+ */
+
+div>h3{
+    color:purple;
+    text-align: start;
+    text-decoration: line-through;
+}
+
+/* element +element =Selects the first <h4> element (2nd) that is placed immediately after <div> elements (1st) */
+div+h4{
+    color:goldenrod;
+    text-align: center;
+}
+
+/* . This is a class selector. The difference between ids and 
+classes is that, with the latter, you can target multiple elements.
+
+in the below .active example using hover selector as well ( only evoked when hover over ) 
+
+in the below .webtext example using last child meaning only the last child 
+is going to have a green dash (only evoke change to the last child of each parent 
+can use first-child to only evoke change on the first child of each parent */
+
+.webtext:last-child{
+    border:5px dashed green;
+}
+
+.active:hover{
+
+    color:red;
+}
+
+/*Prefixing the hash symbol to a selector allows us to target by id.
+id selectors are rigid and don't allow for reuse.  */
+
+#div1{
+    background:rgb(0,0,255,.2)
+}
+
+#div2{
+    background:rgb(255,0,0,.2)
+}
+
+/* !important= don't use even though it overrides the cascasding rule  it can get 
+messy when you have large ccs files.  
+
+What selectors wins out in the cascade depends on 
+
+Specificity 
+Importance
+source order 
+
+Specificity = 
+
+Think of specificity as a score/rank that determines which style 
+declaration are ultimately applied to an element.
+
+The more specific it is the more chance it will win out 
+
+generally speaking   id > class > element > *
+
+inline style is always the highest. 
+
+Other elements that is important are  'importance and source order' 
+
+For example regarding importance  if you use !important, it will overide. 
+
+for example of source order  if you are importing another style sheet it will read the 
+later style and hence that would get added .
+
+*/
+
+ 

@@ -1,0 +1,9 @@
+how to use  'float' to change position of a picture 
+
+and use clear to make sure the footer stays at the bottom of a picture with a float property. 
+
+
+
+The CSS float property specifies how an element should float.
+
+The CSS clear property specifies what elements can float beside the cleared element and on which side.

@@ -1,0 +1,27 @@
+h2{
+    color:blue;
+}
+
+.boxmodel{
+    border:5px solid red;
+    display:inline-block;
+    padding:20px;
+}
+
+.boxmodelA{
+    padding:25px 20px 25px 20px;   /* top right bottom left  */    
+    margin:10px 100px;    /* top bottom, left and right, if type in 4 pxs it will be top right bottom left*/  
+}
+
+p{
+    font-size: 20px;
+
+}
+
+/* em mutiply the containing element px so in the below case it would be 2x '20px'. There is also 
+'rem' which is the size of the 'root' element which is html   */
+span{
+
+    font-size: 2em;
+
+}

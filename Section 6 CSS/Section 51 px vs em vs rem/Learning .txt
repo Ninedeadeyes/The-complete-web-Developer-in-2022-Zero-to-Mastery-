@@ -1,0 +1,9 @@
+
+difference between em and rem and px 
+
+em is muliply of the container size 
+
+rem is mutliply of the root element ( html ) 
+
+
+using span  (style block-inline  ) 
