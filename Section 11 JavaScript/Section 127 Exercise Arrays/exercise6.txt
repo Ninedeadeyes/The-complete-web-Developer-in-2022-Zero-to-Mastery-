@@ -1,0 +1,45 @@
+// using this array,
+// var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+
+// 1. Remove the Banana from the array.
+
+array.shift();
+
+// 2. Sort the array in order.
+
+array.sort();
+
+
+// 3. Put "Kiwi" at the end of the array.
+
+array.push("Kiwi");
+
+
+// 4. Remove "Apples" from the array.
+
+
+array.slice(0,1);
+
+// slice creates a  new array does not remove any element from original array 
+//  it slice up to but not including the end augment hence only index 0 is removed 
+
+// 5. Sort the array in reverse order. (Not alphabetical, but reverse
+// the current Array i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
+
+you should have at the end:
+["Kiwi", "Oranges", "Blueberries"]
+
+newArray=array.slice(1);
+
+newArray.reverse()
+
+// using this array,
+// var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+// access "Oranges".
+
+
+console.log(array2[1][1][0]);
+
+Oranges = 2nd item on the first array and the 2nd item on the second array 
+and its the first item of the 3rd array. 

@@ -1,0 +1,82 @@
+DOM Selectors
+--------------
+getElementsByTagName
+
+document.getElementsByTagName("h1")
+
+getElementsByClassName
+
+document.getElementsByClassName("gb_Id");
+
+getElementById  
+
+( There are no Ids in the website ) 
+
+( Don't use the above as they are old way of doing it ) 
+
+querySelector  ( only acquire the first one of the element ) 
+
+document.querySelector ("div");
+
+querySelectorAll  ( acquire all elements )  
+
+document.querySelectorAll ("div");
+
+getAttribute  ( acquire Attribute value ) 
+
+document.querySelector("body").getAttribute("jsmodel");
+
+setAttribute  ( Change Attribute value) 
+
+document.querySelector("body").setAttribute("jsmodel","help");
+
+
+##Changing Styles
+style.{property} //ok
+
+document.querySelector("body").style.backgroundColor="black";
+
+
+className //best add class from css in Javascript to change style  ( Will wipe out previous class) 
+
+document.querySelector("body").className="csi";
+
+classList //best  will need an existing class in html to work (Not needed with className)    (Will not wipe out previous class )
+
+document.querySelector("body").classList;
+
+classList.add  (This add a class from css ) 
+
+document.querySelector("body").classList.add("gb_Id");
+
+classList.remove (This remove a class from css ) 
+
+document.querySelector("body").classList.remove("csi");
+
+
+classList.toggle 
+
+document.querySelector("body").classList.toggle("gb_Id");
+
+
+##Bonus
+innerHTML //DANGEROUS Use 'textcontent' instead.. 
+
+document.querySelector("title").innerHTML="testing";
+
+
+parentElement
+
+document.querySelector("title").parentElement
+
+
+children
+
+document.querySelector("head").children
+
+
+
+
+##It is important to CACHE selectors in variables
+
+<div class="gb_Id">Google apps</div>
