@@ -1,0 +1,42 @@
+commands
+
+ls= current directory
+
+cd= to go into a certain file 
+eg: cd Desktop/
+
+cd .. bring you back one directory up 
+
+cd / = takes to root directory 
+
+cd ~= takes to user directory 
+
+start= to open a file
+eg:  start index.html
+
+mkdir = create new folder 
+eg: mkdir bob 
+
+echo "" > = create a new file 
+eg: echo "" > testing.txt
+
+mv = change name of file 
+eg:  mv  bob.txt sob.txt  ( change bob.txt to sob.txt) 
+
+rm = remove file 
+eg: rm lod.txt
+
+rm -r = remove folder
+eg: brm -r bob 
+
+
+
+up and down key to go up and down previous commands 
+
+
+
+clear= clear screen
+
+C:\Users\Tommy\AppData\Local\Programs\Python
+
+
